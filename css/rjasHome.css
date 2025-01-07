@@ -630,73 +630,92 @@ i{
 }
 @media screen and (max-width:992px){
     .navbar{
-        padding: 15px 5px;
+        padding: 15px 10px;
     }
     .navbar ul{
-        padding: 15px 7px;
+        padding: 15px 10px;
     }
     .navbar .navbar-nav li{
-        padding: 0 4px;
+        padding: 0 10px;
     }
     .social img{
         width:40px;
     }
-    .bord-img{
-        width:300px;
-        position: relative;
-    }
- 
-    .navbar-nav a{
-        font-size: 12px;
+    i{
+        font-size: 20px;
     }
     .share-earn{
-        padding: 21px 19px;
+        padding: 10px 12px;
     }
     .share-earn i{
         font-size:20px;
-        
     }
     .share-earn a{
-        margin-left:8px;
+        margin-left:10px;
         padding:10px 10px;
     }
-
-    .saller-service{
-        margin-top: 38px;
-    }
-    .saller-service h4{
-        font-size: 18px;
-    }
-    .saller-service span{
-        font-size: 18px;
-    }
-    .item1-text h5{
-        font-size: 15px;
-    }
-    .item1-text .inline{
-        margin-top:18px;
-    }
-    .item1-text .inline i{
-        font-size: 15px;
-    }
-    .fa-heart{
-        margin-top: 7px;
-    }
     .box-star{
-        padding: 30px 30px;
-        margin-left: 35px;
+        padding:10px 20px;
+        margin-left:20px;
     }
-
+    .box-star h4{
+        margin-left:10px;
+    }
+    .box-feedback1{
+        margin-top: 20px;
+    }
+    .box-feedback1 .feedback1 p{
+        font-size: 17px;
+    }
+    .feedback2{
+        margin-left:20px;
+    }
+    .box-feedback1 i,.small{
+        font-size:15px;
+    }
+}
+@media screen and (max-width:800px){
+    .box-star{
+        padding:10px 10px;
+        margin-left:5px;
+    }
+    .box-star h4{
+        display: inline-block;
+        margin-left:10px;
+    }
+    .box-feedback1{
+        display: block;
+        margin-top:20px;
+    }
     .box-feedback1 .feedback3{
-        width: 80%;
-        margin-top: 7px;
+        width:50%;
+        height:9px;
+        border-radius: 2rem;
+        position: relative;
     }
     .box-feedback1 .feedback1 p{
         font-size:14px;
         font-weight: 500;
     }
+    .feedback2{
+        margin-left:0;
+    }
+    .box-feedback1 i,.small{
+        font-size:15px;
+    }
 }
-@media screen and (max-width:800px){
- 
-   
+@media screen and (max-width:400px){
+    .share-earn{
+        padding: 5px 7px;
+    }
+    .share-earn i{
+        font-size:15px;
+    }
+    .share-earn a{
+        margin-left:5px;
+        padding:10px 8px;
+    }
+    .saller-service span{
+        font-size:12px;
+    }
 }
